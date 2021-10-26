@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+<style>
+  .page-content {
+    padding: 100px 200px;
+  }
+</style>
+</head>
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Minus/Plus Liste <input type="text"  value="" placeholder="Klassenname"></span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+
+          <a class="mdl-navigation__link" >Anzahl der heutigen Kinder: <input type="text"></a>
+          <a class="mdl-navigation__link" >Lehrer: <input type="text"></a>
+          <a class="mdl-navigation__link" >Date: <input type="text"></a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Notenrechner</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" >by Key Studios</a>
+        <a class="mdl-navigation__link" >
+            <html>
+                <head>
+                    <title> Grades </title>
+                    <script type="text/javascript">
+            
+            
+                        function Grader() 
+                        {
+                            var am1=parseFloat(document.getElementById('homework').value*0.30);
+                            var am2=parseFloat(document.getElementById('labs').value*0.40);
+                            var am3=parseFloat(document.getElementById('midterm').value*0.30);
+                            var am4=parseFloat(document.getElementById('finals').value*0.0);
+                            var hw=homework*am1;
+                            var lbs=labs*am2;
+                            var mt=midterm*am3;
+                            var fe=finals*am4;
+                            var total = am1+am2+am3+am4;
+            
+                            document.getElementById('outputDiv').innerHTML='Your final grade is ' + total;
+                        }
+                    </script>
+                </head>
+            
+                <body>
+                <p>
+                  <h2>Noten</h2>
+                  <h3></h3>
+                  <TABLE BORDER=3 CELLSPACING=3 CELLPADDING=3>
+            
+                  <tr>
+                  <td>Werte</td>
+                  <td>%</td>
+                  <td>Note</td>
+                  <tr>
+            
+                  <tr>
+                  <td>Hausaufgabe</td>
+                  <td>30%</td>
+                  <td><input type="text" id="homework" size=2 value=""></td>
+                  </tr>
+            
+                  <tr>
+                  <td>Schularbeiten</td>
+                  <td>40%</td>
+                  <td><input type="text" id="labs" size=2 value=""></td>
+                  </tr>
+            
+                  <tr>
+                  <td>Mitarbeit</td>
+                  <td>30%</td>
+                  <td><input type="text" id="midterm" size=2 value=""></td>
+                  </tr>
+            
+                  <tr>
+                  <td></td>
+                  <td>0%</td>
+                  <td><input type="text" id="finals" size=2 value=""></td>
+                  </table>
+            
+                  <br><br>
+                </p>
+                    <input type="button" value="Calculate Grade" 
+                        onclick="Grader();">
+            
+                    <hr>
+                    <div id="outputDiv"></div>
+            
+                </body>
+            </html></a>
+        <a class="mdl-navigation__link" ></a>
+        <a class="mdl-navigation__link" ></a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content"><!-- Your content goes here -->
+
+   
+
+        
+ 
+</body>
+
+</html>
+
+        
+
+     
+   </form>
+
+
+   <form action="#">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" id="sample3">
+      <label class="mdl-textfield__label" for="sample3">Name</label>
+    </div>
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="sample3">
+        <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+      </div>
+    </form>
+  </form>
+  
+  <form action="#">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" id="sample3">
+      <label class="mdl-textfield__label" for="sample3">Name</label>
+    </div>
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="sample3">
+        <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+      </div>
+    </form>
+  </form>
+
+  <form action="#">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" id="sample3">
+      <label class="mdl-textfield__label" for="sample3">Name</label>
+    </div>
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="sample3">
+        <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+      </div>
+    </form>
+  </form>
+
+  <form action="#">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" id="sample3">
+      <label class="mdl-textfield__label" for="sample3">Name</label>
+    </div>
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="sample3">
+        <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+      </div>
+    </form>
+  </form>
+
+  <form action="#">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" id="sample3">
+      <label class="mdl-textfield__label" for="sample3">Name</label>
+    </div>
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="sample3">
+        <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+      </div>
+    </form>
+  </form>
+
+  <form action="#">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" id="sample3">
+      <label class="mdl-textfield__label" for="sample3">Name</label>
+    </div>
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="sample3">
+        <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+      </div>
+    </form>
+  </form>
+
+  <form action="#">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" id="sample3">
+      <label class="mdl-textfield__label" for="sample3">Name</label>
+    </div>
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="sample3">
+        <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+      </div>
+    </form>
+  </form>
+      
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3">
+            <label class="mdl-textfield__label" for="sample3">Name</label>
+          </div>
+          <form action="#">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input class="mdl-textfield__input" type="text" id="sample3">
+              <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+            </div>
+          </form>
+        </form>
+
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3">
+            <label class="mdl-textfield__label" for="sample3">Name</label>
+          </div>
+          <form action="#">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input class="mdl-textfield__input" type="text" id="sample3">
+              <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+            </div>
+          </form>
+
+          <form action="#">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input class="mdl-textfield__input" type="text" id="sample3">
+              <label class="mdl-textfield__label" for="sample3">Name</label>
+            </div>
+            <form action="#">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="sample3">
+                <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+              </div>
+            </form>
+
+            <form action="#">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="sample3">
+                <label class="mdl-textfield__label" for="sample3">Name</label>
+              </div>
+              <form action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input class="mdl-textfield__input" type="text" id="sample3">
+                  <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                </div>
+              </form>
+
+              <form action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input class="mdl-textfield__input" type="text" id="sample3">
+                  <label class="mdl-textfield__label" for="sample3">Name</label>
+                </div>
+                <form action="#">
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="sample3">
+                    <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                  </div>
+                </form>
+
+                <form action="#">
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="sample3">
+                    <label class="mdl-textfield__label" for="sample3">Name</label>
+                  </div>
+                  <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                      <input class="mdl-textfield__input" type="text" id="sample3">
+                      <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                    </div>
+                  </form>
+
+                  <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                      <input class="mdl-textfield__input" type="text" id="sample3">
+                      <label class="mdl-textfield__label" for="sample3">Name</label>
+                    </div>
+                    <form action="#">
+                      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" id="sample3">
+                        <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                      </div>
+                    </form>
+
+                    <form action="#">
+                      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" id="sample3">
+                        <label class="mdl-textfield__label" for="sample3">Name</label>
+                      </div>
+                      <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                          <input class="mdl-textfield__input" type="text" id="sample3">
+                          <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                        </div>
+                      </form>
+
+                      <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                          <input class="mdl-textfield__input" type="text" id="sample3">
+                          <label class="mdl-textfield__label" for="sample3">Name</label>
+                        </div>
+                        <form action="#">
+                          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="text" id="sample3">
+                            <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                          </div>
+                        </form>
+
+                        <form action="#">
+                          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="text" id="sample3">
+                            <label class="mdl-textfield__label" for="sample3">Name</label>
+                          </div>
+                          <form action="#">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                              <input class="mdl-textfield__input" type="text" id="sample3">
+                              <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                            </div>
+                          </form>
+
+                          <form action="#">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                              <input class="mdl-textfield__input" type="text" id="sample3">
+                              <label class="mdl-textfield__label" for="sample3">Name</label>
+                            </div>
+                            <form action="#">
+                              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <input class="mdl-textfield__input" type="text" id="sample3">
+                                <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                              </div>
+                            </form>
+
+                            <form action="#">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                  <input class="mdl-textfield__input" type="text" id="sample3">
+                                  <label class="mdl-textfield__label" for="sample3">Name</label>
+                                </div>
+                                <form action="#">
+                                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input" type="text" id="sample3">
+                                    <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                                  </div>
+                                </form>
+
+                                <form action="#">
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                      <input class="mdl-textfield__input" type="text" id="sample3">
+                                      <label class="mdl-textfield__label" for="sample3">Name</label>
+                                    </div>
+                                    <form action="#">
+                                      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" id="sample3">
+                                        <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                                      </div>
+                                    </form>
+
+                                    <form action="#">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                          <input class="mdl-textfield__input" type="text" id="sample3">
+                                          <label class="mdl-textfield__label" for="sample3">Name</label>
+                                        </div>
+                                        <form action="#">
+                                          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" id="sample3">
+                                            <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                                          </div>
+                                        </form>
+
+                                        <form action="#">
+                                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                              <input class="mdl-textfield__input" type="text" id="sample3">
+                                              <label class="mdl-textfield__label" for="sample3">Name</label>
+                                            </div>
+                                            <form action="#">
+                                              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                <input class="mdl-textfield__input" type="text" id="sample3">
+                                                <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                                              </div>
+                                            </form>
+
+                                            <form action="#">
+                                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                  <input class="mdl-textfield__input" type="text" id="sample3">
+                                                  <label class="mdl-textfield__label" for="sample3">Name</label>
+                                                </div>
+                                                <form action="#">
+                                                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                    <input class="mdl-textfield__input" type="text" id="sample3">
+                                                    <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                                                  </div>
+                                                </form>
+
+                                                <form action="#">
+                                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                      <input class="mdl-textfield__input" type="text" id="sample3">
+                                                      <label class="mdl-textfield__label" for="sample3">Name</label>
+                                                    </div>
+                                                    <form action="#">
+                                                      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                        <input class="mdl-textfield__input" type="text" id="sample3">
+                                                        <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                                                      </div>
+                                                    </form>
+
+                                                    <form action="#">
+                                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                          <input class="mdl-textfield__input" type="text" id="sample3">
+                                                          <label class="mdl-textfield__label" for="sample3">Name</label>
+                                                        </div>
+                                                        <form action="#">
+                                                          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                            <input class="mdl-textfield__input" type="text" id="sample3">
+                                                            <label class="mdl-textfield__label" for="sample3">Minus/Plus</label>
+                                                          </div>
+                                                        </form>
+                                                        
+                                                        <iframe src="https://fritz.chessbase.com" style="width:760px;height:480px"></iframe>
+                                                        
+
+                                                   
+                                                        
+                                           
+                                                  
+                                            
+                                                        
+
+                                                            
+                                                          
+
+                          
+
+                                
+  
